@@ -100,4 +100,34 @@ nav{
 
 /* inizio Planning */
 
+.Planning{
+    background-color: #9692DE;
+
+}
+
+.Strategic{
+    height: 300px;
+    border: 2px solid red;
+    /* regola di prova */
+
+    margin-bottom: ;
+    width: 100%;
+}
+
+.Development{
+    height: 300px;
+    border: 2px solid red;
+    /* regola di prova */
+
+    margin-bottom: 60px;
+    width: 100%;
+
+    background-color: white;
+}
+
+
+
+
+
+
 /* fine Planning */
