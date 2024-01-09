@@ -14,11 +14,17 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.row{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
 
 
 
 
-/* inizio NavBar */
+/* Inizio NavBar */
 
 nav{
     background-color: #3982F5;
@@ -27,7 +33,7 @@ nav{
 .container{
     width: 100%;
 
-    padding: 30px;
+    padding: 20px;
 
     margin-left: auto;
     margin-right: auto;
@@ -39,4 +45,51 @@ nav{
     color: white;
 
     font-size: 20px;
+}
+
+/* fine parte Navbar */
+
+/* Inizio parte MAIN */
+
+.Demo{
+    margin-bottom: 75px;
+}
+
+.rectagle{
+   margin-bottom: 20px;
+}
+
+.rectagle-2{
+    height: 200px;
+    border: solid red 2px;
+    /* regole prova */
+
+
+    width: 100%;
+    /* riportare la grandetta di questi due elementi ora che si passa a tablet a 60% */
+}
+
+.square-2{
+    height: 200px;
+    border: solid red 2px;
+    /* regole prova */
+
+    width: 100%;
+    /* riportare la grandetta di questi due elementi ora che si passa a tablet a 40% */
+
+}
+
+.Square{
+    
+    border: solid red 2px;
+    /* regole prova */
+
+    width: 100%;
+}
+.square-3{
+    height: 200px;
+    border: 2px solid black;
+    /* regole di prova */
+    width: 100%;
+
 }
