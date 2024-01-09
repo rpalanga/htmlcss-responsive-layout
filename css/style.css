@@ -51,6 +51,8 @@ nav{
 
 /* Inizio parte MAIN */
 
+/* inizio Square */
+
 .Demo{
     margin-bottom: 75px;
 }
@@ -60,7 +62,7 @@ nav{
 }
 
 .rectagle-2{
-    height: 200px;
+    height: 400px;
     border: solid red 2px;
     /* regole prova */
 
@@ -93,3 +95,9 @@ nav{
     width: 100%;
 
 }
+
+/* fine Square */
+
+/* inizio Planning */
+
+/* fine Planning */
