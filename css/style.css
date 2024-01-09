@@ -157,14 +157,23 @@ nav{
 
 .Benefits{
     background-color: #9692DE;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 60px;
 }
 
 .benefits-card{
-    height: 300px;
+    /* height: 300px; */
     border: 2px solid red;
     /* regola di prova */
     
-    width: calc(100% / 3 * 2);
+    /* width: calc(100% / 3 * 2); */
+    /* width prova */
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 
    
 }
@@ -180,6 +189,25 @@ nav{
 
 
 /* fine parte Benefits */
+
+/* inzio About us */
+
+.About{
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+
+}
+
+.about-text{
+    height: 400px;
+    border: 1px solid red;
+}
+
+.about-description{
+    height: 200px;
+    border: 1px solid red;
+}
 
 
 
