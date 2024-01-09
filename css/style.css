@@ -151,4 +151,35 @@ nav{
 }
 
 
+/* fine parte Testimonial */
+
+/* inizio parte Benefits */
+
+.Benefits{
+    background-color: #9692DE;
+}
+
+.benefits-card{
+    height: 300px;
+    border: 2px solid red;
+    /* regola di prova */
+    
+    width: calc(100% / 3 * 2);
+
+   
+}
+
+.number-benefits{
+    height: 200px;
+    border: 1px solid red;
+
+    background-color: white;
+    border-radius: 30px;
+}
+
+
+
+/* fine parte Benefits */
+
+
 
