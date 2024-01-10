@@ -1,20 +1,23 @@
-*{
+* {
     padding: 0%;
     margin: 0;
     box-sizing: border-box;
 }
+
 /* regola di reset */
 
-body{
+body {
     font-family: 'PT Sans', sans-serif;
 }
+
 /* classi generali */
-.row{
+.row {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.row-1{
+
+.row-1 {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -22,19 +25,7 @@ body{
 }
 
 
-
-
-.blue{
-    background-color: #BDDCFC;
-}
-
-/* Inizio NavBar */
-
-nav{
-    background-color: #3982F5;
-}
-
-.container{
+.container {
     width: 100%;
 
     padding: 20px;
@@ -45,7 +36,40 @@ nav{
 
 }
 
-.fa-bars{
+
+.blue {
+    background-color: #BDDCFC;
+}
+
+/* Inizio NavBar */
+
+nav {
+    background-color: #3982F5;
+}
+.nav-link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.nav-link ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.nav-link ul li {
+    list-style-type: none;
+    color: white;
+}
+.nav-link .button{
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+
+}
+
+.fa-bars {
     color: white;
 
     font-size: 20px;
@@ -57,15 +81,15 @@ nav{
 
 /* inizio Square */
 
-.Demo{
+.Demo {
     margin-bottom: 75px;
 }
 
-.rectagle{
-   margin-bottom: 20px;
+.rectagle {
+    margin-bottom: 20px;
 }
 
-.rectagle-2{
+.rectagle-2 {
     height: 400px;
     border: solid red 2px;
     /* regole prova */
@@ -75,7 +99,7 @@ nav{
     /* riportare la grandetta di questi due elementi ora che si passa a tablet a 60% */
 }
 
-.square-2{
+.square-2 {
     height: 200px;
     border: solid red 2px;
     /* regole prova */
@@ -85,14 +109,15 @@ nav{
 
 }
 
-.Square{
-    
+.Square {
+
     border: solid red 2px;
     /* regole prova */
 
     width: 100%;
 }
-.square-3{
+
+.square-3 {
     height: 200px;
     border: 2px solid black;
     /* regole di prova */
@@ -104,21 +129,21 @@ nav{
 
 /* inizio Planning */
 
-.Planning{
+.Planning {
     background-color: #9692DE;
 
 }
 
-.Strategic{
+.Strategic {
     height: 300px;
     border: 2px solid red;
     /* regola di prova */
 
-    
+
     width: 100%;
 }
 
-.Development{
+.Development {
     height: 300px;
     border: 2px solid red;
     /* regola di prova */
@@ -133,24 +158,26 @@ nav{
 
 /* inizio parte Testimonial */
 
-.Committed{
+.Committed {
     height: 300px;
     border: 2px solid red;
     /* regola di prova */
 
-    
+
     width: 100%;
 }
 
 
-.card-1, .card-2, .card-3{
+.card-1,
+.card-2,
+.card-3 {
     height: 300px;
     border: 2px solid red;
     /* regola di prova */
-    
+
     width: 100%;
 
-    background-color:#9692DE ;
+    background-color: #9692DE;
     border-radius: 30px;
 }
 
@@ -159,30 +186,29 @@ nav{
 
 /* inizio parte Benefits */
 
-.Benefits{
+.Benefits {
     background-color: #9692DE;
     display: flex;
     flex-direction: column;
     padding-bottom: 60px;
 }
 
-.benefits-card{
+.benefits-card {
     /* height: 300px; */
     border: 2px solid red;
     /* regola di prova */
-    
-    /* width: calc(100% / 3 * 2); */
-    /* width prova */
+
+
 
     width: 100%;
     display: flex;
     flex-direction: column;
     gap: 20px;
 
-   
+
 }
 
-.number-benefits{
+.number-benefits {
     height: 200px;
     border: 1px solid red;
 
@@ -196,7 +222,7 @@ nav{
 
 /* inzio About us */
 
-.About{
+.About {
     display: flex;
     flex-direction: column;
 
@@ -204,7 +230,7 @@ nav{
 
 }
 
-.about-text{
+.about-text {
     height: 400px;
     width: 100%;
 
@@ -212,7 +238,7 @@ nav{
     /* test */
 }
 
-.about-description{
+.about-description {
     height: 300px;
     width: 100%;
 
@@ -224,21 +250,21 @@ nav{
 
 /* inizio parte Pricing */
 
-.Pricing{
+.Pricing {
     width: 100%;
-    padding-top: 65px ;
+    padding-top: 65px;
     padding-bottom: 60px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     background-color: #9692DE;
-    
-    
+
+
 }
 
-.pricing-content{
+.pricing-content {
     height: 400px;
     border: 1px solid red;
     width: 30px;
@@ -251,19 +277,19 @@ nav{
 
 /* inizio footer */
 
-.contacts{
+.contacts {
     width: 100%;
-    padding-top: 65px ;
+    padding-top: 65px;
     padding-bottom: 60px;
-    
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    
+
     background-color: #333333;
 }
 
-.contact{
+.contact {
     height: 400px;
     border: 1px solid red;
     width: 30px;
@@ -274,68 +300,72 @@ nav{
 /* fine footer */
 
 
-@media screen and (min-width:768px){
-    .row-1{
+@media screen and (min-width:768px) {
+    .row-1 {
         flex-direction: row;
     }
-    .rectagle-2{
+
+    .rectagle-2 {
         width: 60%;
     }
-    .square-2{
+
+    .square-2 {
         width: 40%;
     }
 
     /* sezione Planning */
-    .Planning{
+    .Planning {
         flex-direction: column;
     }
 
     /* sezione Testimonial */
-    .Testimonial{
+    .Testimonial {
         flex-direction: column;
     }
 
     /* sezione benefits */
 
-    .benefits-card{
+    .benefits-card {
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
     }
 
-    .number-benefits{
-        width: calc(100% / 2 - 20px );
+    .number-benefits {
+        width: calc(100% / 2 - 20px);
     }
 
 
 
     /* sezione About us */
-    .About{
+    .About {
         flex-direction: row;
     }
 }
 
 @media screen and (min-width:1200px) {
-    .container{
+    .container {
         padding-left: 175px;
         padding-right: 175px;
     }
 
+    /* Parte Nav-bar */
+    .fa-bars {
+        display: none;
+    }
+
     /* Parte del Planning */
-    .Planning{
+    .Planning {
         flex-direction: row;
     }
 
-    .Development{
+    .Development {
         width: 20rem;
     }
+
     /* parte Benefits */
-    .number-benefits{
-        width: calc(100% / 3 - 20px );
+    .number-benefits {
+        width: calc(100% / 3 - 20px);
     }
 
 }
-
-
-
-
