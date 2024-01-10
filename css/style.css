@@ -46,12 +46,14 @@ body {
 nav {
     background-color: #3982F5;
 }
-.nav-link{
+
+.nav-link {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 20px;
 }
+
 .nav-link ul {
     display: flex;
     justify-content: space-between;
@@ -62,7 +64,8 @@ nav {
     list-style-type: none;
     color: white;
 }
-.nav-link .button{
+
+.nav-link .button {
     background-color: white;
     padding: 5px;
     border-radius: 15px;
@@ -98,16 +101,16 @@ nav {
     width: 100%;
     /* riportare la grandetta di questi due elementi ora che si passa a tablet a 60% */
     display: flex;
-   
+
     flex-direction: column;
-   
+
     padding: 35px;
     gap: 40px;
 }
 
 
 .square-2 {
-   
+
 
     width: 100%;
     /* riportare la grandetta di questi due elementi ora che si passa a tablet a 40% */
@@ -119,12 +122,12 @@ nav {
 }
 
 
-.sizing-icon{
+.sizing-icon {
     font-size: 80px;
     color: #3982F5;
 }
 
-h3{
+.Demo h3 {
     font-size: 30px;
     color: #3982F5;
 }
@@ -141,8 +144,9 @@ h3{
 }
 
 .square-3 {
-    
-    width: 100%;
+
+    /* width: 100%; */
+    /* commento di test */
 
 
     display: flex;
@@ -162,16 +166,24 @@ h3{
 
     padding-bottom: 28px;
 
-    
+
 
 }
 
-h4{
-    
+.Planning h4 {
+    font-size: 30px;
+}
+
+.Strategic h4 {
+    color: white;
+}
+
+.Strategic p {
+    color: white;
 }
 
 .Strategic {
-   
+
     /* regola di prova */
     width: 100%;
 
@@ -181,10 +193,11 @@ h4{
     gap: 65px;
 }
 
-.Strategic  img{
+.Strategic img {
     width: 100%;
 }
-.Strategic .strate-text{
+
+.Strategic .strate-text {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -193,7 +206,7 @@ h4{
 
 
 
-    
+
 
 .Development {
     /* height: 300px;
@@ -213,21 +226,22 @@ h4{
     gap: 65px;
 }
 
-.Development .develo-text{
+.Development .develo-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 28px;
 }
-.Development .develo-text p{
+
+.Development .develo-text p {
     text-align: center;
 }
 
-.Development img{
+.Development img {
     width: 100%;
 }
 
-.Arrow{
+.Arrow {
     background-color: #9692DF;
     padding: 8px;
     border-radius: 50%;
@@ -239,12 +253,16 @@ h4{
 /* inizio parte Testimonial */
 
 .Committed {
-    height: 300px;
-    border: 2px solid red;
-    /* regola di prova */
+    text-align: center;
 
 
     width: 100%;
+}
+
+.Committed h3 {
+    font-size: 30px;
+    color: #9692DF;
+    margin-bottom: 24px;
 }
 
 
@@ -256,9 +274,46 @@ h4{
     /* regola di prova */
 
     width: 100%;
+    padding: 20px;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 40px;
 
     background-color: #9692DE;
     border-radius: 30px;
+
+
+
+
+}
+
+
+
+.Testimonial img {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.Testimonial .card-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Testimonial .card-text h5{
+    color: white;
+}
+
+.white-icon{
+    color: white;
+    padding: 5px;
 }
 
 
@@ -438,7 +493,8 @@ h4{
     .Planning {
         flex-direction: row;
     }
-    .Development{
+
+    .Development {
         width: 60%;
     }
 
