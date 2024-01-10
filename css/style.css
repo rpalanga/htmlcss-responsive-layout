@@ -315,7 +315,26 @@ nav{
     }
 }
 
-@
+@media screen and (min-width:1200px) {
+    .container{
+        padding-left: 175px;
+        padding-right: 175px;
+    }
+
+    /* Parte del Planning */
+    .Planning{
+        flex-direction: row;
+    }
+
+    .Development{
+        width: 20rem;
+    }
+    /* parte Benefits */
+    .number-benefits{
+        width: calc(100% / 3 - 20px );
+    }
+
+}
 
 
 
