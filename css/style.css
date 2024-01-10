@@ -160,26 +160,78 @@ h3{
 .Planning {
     background-color: #9692DE;
 
+    padding-bottom: 28px;
+
+    
+
+}
+
+h4{
+    
 }
 
 .Strategic {
-    height: 300px;
-    border: 2px solid red;
+   
     /* regola di prova */
-
-
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
 }
 
+.Strategic  img{
+    width: 100%;
+}
+.Strategic .strate-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+
+
+
+    
+
 .Development {
-    height: 300px;
-    border: 2px solid red;
+    /* height: 300px;
+    border: 2px solid red; */
     /* regola di prova */
 
     margin-bottom: 60px;
     width: 100%;
+    border-radius: 30px;
+    padding-bottom: 40px;
 
     background-color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+}
+
+.Development .develo-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 28px;
+}
+.Development .develo-text p{
+    text-align: center;
+}
+
+.Development img{
+    width: 100%;
+}
+
+.Arrow{
+    background-color: #9692DF;
+    padding: 8px;
+    border-radius: 50%;
+    font-size: 20px;
 }
 
 /* fine Planning */
@@ -386,10 +438,14 @@ h3{
     .Planning {
         flex-direction: row;
     }
-
-    .Development {
-        width: 20rem;
+    .Development{
+        width: 60%;
     }
+
+    .Development img {
+        width: 50%;
+    }
+
 
     /* parte Benefits */
     .number-benefits {
